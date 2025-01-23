@@ -7,6 +7,9 @@ import libuser
 mod_posts = Blueprint('mod_posts', __name__, template_folder='templates')
 
 
+
+
+
 @mod_posts.route('/')
 @mod_posts.route('/<username>')
 def do_view(username=None):
