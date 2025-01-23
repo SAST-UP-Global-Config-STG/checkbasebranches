@@ -30,6 +30,6 @@
     "incrementalScan": true,
     "snippetSize": 2,
     "issueType": "finding",
-    "baseBranches": []
+    "baseBranches": [dev, stg]
   }
 }
